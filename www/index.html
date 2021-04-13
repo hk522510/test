@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    </script>
+</head>
+<body>
+  <h1>The onclick Event</h1>
+
+<p>The onclick event is used to trigger a function when an element is clicked on.</p>
+
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+<p id="demo"></p>
+<button onclick="myFunction()">Click me</button>
+<button>２</button>
+<button>３</button>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+  const demostyle=demo.style.display
+  if(demostyle=="block"){
+demostyle=="none";
+  }else{
+demostyle="block";
+  }
+}
+</script>
+</body>
+</html>
